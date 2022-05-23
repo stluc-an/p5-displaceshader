@@ -12,7 +12,7 @@ let zone;
 function preload(){
   // load the shader
   distoShader = loadShader('effect.vert', 'effect.frag');
-  noiseTexture = loadImage('noise.jpg');
+  noiseTexture = loadImage('normal.jpg');
 }
 
 function setup() {
